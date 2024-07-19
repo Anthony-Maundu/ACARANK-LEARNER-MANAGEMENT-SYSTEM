@@ -1,0 +1,64 @@
+{
+  "headteachers": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "username": "teacher1",
+      "password": "teacher123"
+    },
+    {
+      "id": "f40d",
+      "name": "Cyprian Mavindu",
+      "idNumber": "4839292",
+      "phone": "0736262273",
+      "assignedClass": "7"
+    },
+    {
+      "id": "12ab",
+      "username": "2728282",
+      "password": "B(@UGmrP",
+      "name": "Pauline Mumbua",
+      "phone": "0765217263",
+      "assignedClass": "1"
+    },
+    {
+      "id": "ad74",
+      "username": "266273",
+      "password": "9*04HCQ!",
+      "name": "Curtis Wahome",
+      "phone": "0726363627",
+      "assignedClass": "7"
+    },
+    {
+      "id": "832c",
+      "username": "354544",
+      "password": "IssEoFhN",
+      "name": "Norah KInyamasyo",
+      "phone": "0765525252",
+      "assignedClass": ""
+    }
+  ],
+  "learners": [
+    {
+      "id": "l1",
+      "admissionNumber": "12345",
+      "firstName": "John",
+      "middleName": "A.",
+      "surname": "Doe",
+      "dob": "2010-01-01",
+      "gender": "male",
+      "disability": "none",
+      "guardianName": "Jane Doe",
+      "guardianResidence": "City",
+      "guardianID": "67890",
+      "guardianPhone": "1234567890",
+      "grade": "1"
+    }
+  ]
+}
