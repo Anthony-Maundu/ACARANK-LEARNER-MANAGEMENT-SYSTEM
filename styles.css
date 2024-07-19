@@ -84,11 +84,13 @@ input[type="file"] {
 .grade-buttons {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px; /* Adds space between buttons */
 }
 
 .grade-btn {
-    flex: 1 1 100px; /* Adjusts button size */
-    margin: 5px;
+    flex: 1 1 100px; /* Button width adjusts, keeps buttons aligned */
+    min-width: 100px; /* Ensures a minimum width */
+    height: 50px; /* Fixed height for uniformity */
     background-color: #28a745;
     color: #fff;
     border: none;
@@ -97,6 +99,9 @@ input[type="file"] {
     cursor: pointer;
     font-size: 16px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .grade-btn:hover {
