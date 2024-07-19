@@ -11,7 +11,7 @@ h1 {
 }
 
 /* Container for forms and dashboard */
-#login-container, #registration-container, #dashboard-container, #admission-container, #add-teacher-container {
+#login-container, #registration-container, #headteacher-dashboard-container, #teacher-dashboard-container, #admission-container, #add-teacher-container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -69,4 +69,41 @@ input[type="file"] {
 
 .link:hover {
     text-decoration: underline;
+}
+
+/* Dashboard Button Styles */
+#headteacher-dashboard-container .btn, #teacher-dashboard-container .btn {
+    margin: 5px;
+}
+
+/* Grade Buttons */
+#grades-container {
+    margin-top: 20px;
+}
+
+.grade-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grade-btn {
+    flex: 1 1 100px; /* Adjusts button size */
+    margin: 5px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.grade-btn:hover {
+    background-color: #218838;
+}
+
+.grade-btn:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
