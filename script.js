@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
         phone: phone,
       };
 
-      fetch(`http://localhost:3000/${userType}s`, {
+      fetch(`https://phase-1-project-server.vercel.app/teachers`, `https://phase-1-project-server.vercel.app/headteachers`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
