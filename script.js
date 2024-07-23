@@ -223,7 +223,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document
     .getElementById("list-teachers-button")
     .addEventListener("click", function () {
-      fetch("http://localhost:3000/teachers")
+      fetch("https://phase-1-project-server.vercel.app/teachers")
         .then((response) => response.json())
         .then((teachers) => {
           const teachersContainer =
@@ -242,7 +242,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document
     .getElementById("class-teachers-button")
     .addEventListener("click", function () {
-      fetch("http://localhost:3000/teachers?assignedClass_ne=")
+      fetch("https://phase-1-project-server.vercel.app/teachers")
         .then((response) => response.json())
         .then((teachers) => {
           const teachersContainer =
@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Fetch learners by grade
   // Fetch learners by grade
   function fetchLearnersByGrade(grade) {
-    fetch(`http://localhost:3000/learners?grade=${grade}`)
+    fetch(`https://phase-1-project-server.vercel.app/learners`)
       .then((response) => response.json())
       .then((learners) => {
         const learnersContainer = document.getElementById("learners-container");
